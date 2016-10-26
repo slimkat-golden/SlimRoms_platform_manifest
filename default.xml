@@ -38,6 +38,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" revision="kk4.4" />
   <project path="system/core" name="system_core" remote="slimromssecurity" revision="kk4.4" />
   <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" revision="kk4.4" />
@@ -53,6 +54,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" revision="aosp-4.4" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" revision="aosp-4.4" groups="pdk" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" revision="aosp-4.4" />
+  <project path="system/media" name="android_system_media" remote="android-security" revision="aosp-4.4" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="android-security" revision="aosp-4.4" groups="pdk" />
 
 </manifest>
