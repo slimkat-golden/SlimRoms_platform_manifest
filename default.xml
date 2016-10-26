@@ -37,6 +37,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" revision="kk4.4" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" revision="kk4.4" />
   <project path="system/core" name="system_core" remote="slimromssecurity" revision="kk4.4" />
   <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" revision="kk4.4" />
