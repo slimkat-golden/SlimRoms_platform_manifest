@@ -42,6 +42,8 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
   <project path="system/core" name="system_core" remote="slimromssecurity" />
+  <project path="vendor/slim" name="vendor_slim" remote="slimromssecurity" />
+
   <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" />
 
 
