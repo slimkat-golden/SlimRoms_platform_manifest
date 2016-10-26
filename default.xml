@@ -7,54 +7,55 @@
 
   <!-- Define remotes -->
   <remote  name="slimromssecurity"
-           fetch="https://github.com/SlimRomsSecurity/" />
+           fetch="https://github.com/SlimRomsSecurity/"
+           revision="kk4.4" />
   
   <remote  name="android-security"
-           fetch="https://github.com/android-security/" />
-
+           fetch="https://github.com/android-security/"
+           revision="aosp-4.4" />
 
   <!-- Patched SlimRoms Repos -->
-  <project path="build" name="android_build" remote="slimromssecurity" revision="kk4.4" >
+  <project path="build" name="android_build" remote="slimromssecurity" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="android_bionic" remote="slimromssecurity" revision="kk4.4" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
-  <project path="dalvik" name="android_dalvik" remote="slimromssecurity" revision="kk4.4" />
-  <project path="external/aac" name="android_external_aac" remote="slimromssecurity" revision="kk4.4" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
-  <project path="external/chromium_org" name="android_external_chromium_org" remote="slimromssecurity" revision="kk4.4" />
-  <project path="external/flac" name="android_external_flac" remote="slimromssecurity" revision="kk4.4" />
-  <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" revision="kk4.4" groups="pdk" />
-  <project path="external/skia" name="android_external_skia" remote="slimromssecurity" revision="kk4.4" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slimromssecurity" revision="kk4.4" />
-  <project path="frameworks/av" name="frameworks_av" remote="slimromssecurity" revision="kk4.4" />
-  <project path="frameworks/base" name="frameworks_base" remote="slimromssecurity" revision="kk4.4" />
-  <project path="frameworks/native" name="frameworks_native" remote="slimromssecurity" revision="kk4.4" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slimromssecurity" revision="kk4.4" />
-  <project path="libcore" name="android_libcore" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/apps/Email" name="packages_apps_Email" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" revision="kk4.4" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" revision="kk4.4" />
-  <project path="system/core" name="system_core" remote="slimromssecurity" revision="kk4.4" />
-  <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" revision="kk4.4" />
+  <project path="bionic" name="android_bionic" remote="slimromssecurity" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="slimromssecurity" groups="pdk" />
+  <project path="dalvik" name="android_dalvik" remote="slimromssecurity" />
+  <project path="external/aac" name="android_external_aac" remote="slimromssecurity" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" groups="pdk" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="slimromssecurity" />
+  <project path="external/flac" name="android_external_flac" remote="slimromssecurity" />
+  <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" groups="pdk" />
+  <project path="external/skia" name="android_external_skia" remote="slimromssecurity" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slimromssecurity" />
+  <project path="frameworks/av" name="frameworks_av" remote="slimromssecurity" />
+  <project path="frameworks/base" name="frameworks_base" remote="slimromssecurity" />
+  <project path="frameworks/native" name="frameworks_native" remote="slimromssecurity" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slimromssecurity" />
+  <project path="libcore" name="android_libcore" remote="slimromssecurity" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
+  <project path="packages/apps/Email" name="packages_apps_Email" remote="slimromssecurity" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slimromssecurity" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="slimromssecurity" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
+  <project path="system/core" name="system_core" remote="slimromssecurity" />
+  <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" />
 
 
   <!-- Patched AOSP Repos -->
-  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" revision="aosp-4.4" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" revision="aosp-4.4" />
-  <project path="external/jhead" name="android_external_jhead" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="external/okhttp" name="android_external_okhttp" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" revision="aosp-4.4" />
-  <project path="system/media" name="android_system_media" remote="android-security" revision="aosp-4.4" groups="pdk" />
-  <project path="system/security" name="android_system_security" remote="android-security" revision="aosp-4.4" groups="pdk" />
+  <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
+  <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
+  <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
+  <project path="external/okhttp" name="android_external_okhttp" remote="android-security" groups="pdk" />
+  <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
+  <project path="system/security" name="android_system_security" remote="android-security" groups="pdk" />
 
 </manifest>
