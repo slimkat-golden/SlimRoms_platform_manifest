@@ -27,6 +27,7 @@
   <project path="external/flac" name="android_external_flac" remote="slimromssecurity" />
   <project path="external/icu4c" name="android_external_icu4c" remote="slimromssecurity" />
   <project path="external/jpeg" name="android_external_jpeg" remote="slimromssecurity" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slimromssecurity" />
   <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimromssecurity" />
   <project path="external/skia" name="android_external_skia" remote="slimromssecurity" />
@@ -64,6 +65,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
   <project path="system/media" name="android_system_media" remote="android-security" groups="pdk" />
   <project path="system/security" name="android_system_security" remote="android-security" groups="pdk" />
 
