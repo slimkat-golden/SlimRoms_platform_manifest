@@ -145,7 +145,6 @@
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
-  <project path="external/libxml2" name="SlimRoms/android_external_libxml2" remote="github" revision="kk4.4" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />

@@ -28,6 +28,7 @@
   <project path="external/icu4c" name="android_external_icu4c" remote="slimromssecurity" />
   <project path="external/jpeg" name="android_external_jpeg" remote="slimromssecurity" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" remote="slimromssecurity" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="github" revision="kk4.4" />
   <project path="external/openssl" name="android_external_openssl" remote="slimromssecurity" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" remote="slimromssecurity" />
   <project path="external/skia" name="android_external_skia" remote="slimromssecurity" />
