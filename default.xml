@@ -24,6 +24,7 @@
   <project path="external/aac" name="android_external_aac" remote="slimromssecurity" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slimromssecurity" groups="pdk" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slimromssecurity" />
+  <project path="external/chromium_org/third_party/openssl" name="android_external_chromium_org_third_party_openssl" remote="slimromssecurity" />
   <project path="external/flac" name="android_external_flac" remote="slimromssecurity" />
   <project path="external/icu4c" name="android_external_icu4c" remote="slimromssecurity" />
   <project path="external/jpeg" name="android_external_jpeg" remote="slimromssecurity" />
