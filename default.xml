@@ -63,6 +63,7 @@
   <project path="external/jhead" name="android_external_jhead" remote="android-security" groups="pdk" />
   <project path="external/libvpx" name="android_external_libvpx" remote="android-security" groups="pdk" />
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" groups="pdk" />
+  <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
   <project path="external/sonivox" name="android_external_sonivox" remote="android-security" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="android-security" groups="pdk" />
