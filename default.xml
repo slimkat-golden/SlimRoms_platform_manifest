@@ -54,6 +54,8 @@
 
   <project path="platform_manifest" name="platform_manifest" remote="slimromssecurity" />
 
+  <!-- Debloat -->
+  <remove-project name="SlimRoms/packages_apps_Browser" />
 
   <!-- Patched AOSP Repos -->
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
