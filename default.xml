@@ -58,6 +58,8 @@
   <remove-project name="SlimRoms/packages_apps_Browser" />
 
   <!-- Patched AOSP Repos -->
+  <remove-project name="device/common" />
+  <project path="device/common" name="android_device_common" remote="android-security" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="android-security" />
   <project path="external/chromium" name="android_external_chromium" remote="android-security" />
   <project path="external/dhcpcd" name="android_external_dhcpcd" remote="android-security" />
