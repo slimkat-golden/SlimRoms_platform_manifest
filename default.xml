@@ -40,6 +40,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="slimromssecurity" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slimromssecurity" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="slimromssecurity" />
+  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="slimromssecurity" />
   <project path="hardware/ril" name="hardware_ril" remote="slimromssecurity" />
   <project path="libcore" name="android_libcore" remote="slimromssecurity" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
