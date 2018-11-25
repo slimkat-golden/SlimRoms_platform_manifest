@@ -11,7 +11,7 @@ To get started with SlimKat, you'll need to get familiar with
 
 To initialize your local repository using the SlimKat trees (CAF not supported!), use this command:
 
-	repo init -u git://github.com/slimkat-golden/platform_manifest.git -b kk4.4
+	repo init -u git://github.com/slimkat-golden/SlimRoms_platform_manifest.git -b kk4.4
 
 
 Then sync up with this command:
