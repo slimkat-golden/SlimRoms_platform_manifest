@@ -2,8 +2,9 @@
 <manifest>
 
 
-  <!-- Include SlimRoms manifest -->
+  <!-- Include SlimRoms and slimkat-golden manifest -->
   <include name="slim.xml" />
+  <include name="slimkat-golden.xml" />
 
   <!-- Define remotes -->
   <remote  name="slimromssecurity"
