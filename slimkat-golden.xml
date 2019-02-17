@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="slimkat-golden/SlimRoms_system_vold" path="system/vold" remote="github" revision="kk4.4" />
+  <project name="slimkat-golden/SlimRoms_external_libnfc-nci" path="external/libnfc-nci" remote="github" revision="kk4.4" />
+
+  <!-- Prebuilt Kitkat Webview -->
+  <project name="slimkat-golden/KitKat_prebuilt_webview" path="external/chromium-webview" clone-depth="1" remote="github" revision="kk4.4" />
+  <!-- Prebuilt Chromium ('Bromite' fork) -->
+  <project name="slimkat-golden/KitKat_Bromite-prebuilt" path="external/bromite-prebuilt" clone-depth="1" remote="github" revision="master" />
+</manifest>
