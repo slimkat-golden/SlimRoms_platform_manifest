@@ -57,6 +57,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slimromssecurity" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slimromssecurity" />
   <project path="system/core" name="system_core" remote="slimromssecurity" />
+  <project path="system/netd" name="android_system_netd" remote="slimromssecurity" />
   <project path="vendor/slim" name="SlimRoms_vendor_slim" remote="slimkat-golden" />
 
   <project path="platform_manifest" name="SlimRoms_platform_manifest" remote="slimkat-golden" />
