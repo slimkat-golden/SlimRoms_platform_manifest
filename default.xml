@@ -49,7 +49,6 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slimromssecurity" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slimromssecurity" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slimromssecurity" />
   <project path="packages/apps/Settings" name="SlimRoms_packages_apps_Settings" remote="slimkat-golden" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slimromssecurity" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="slimromssecurity" />
