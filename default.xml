@@ -46,7 +46,6 @@
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="slimromssecurity" />
   <project path="hardware/ril" name="hardware_ril" remote="slimromssecurity" />
   <project path="libcore" name="android_libcore" remote="slimromssecurity" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slimromssecurity" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slimromssecurity" />
   <project path="packages/apps/Email" name="packages_apps_Email" remote="slimromssecurity" />
   <project path="packages/apps/Settings" name="SlimRoms_packages_apps_Settings" remote="slimkat-golden" />
@@ -79,7 +78,6 @@
   <project path="external/okhttp" name="android_external_okhttp" remote="android-security" groups="pdk" />
   <project path="external/sfntly" name="android_external_sfntly" remote="android-security" />
   <project path="external/sonivox" name="android_external_sonivox" remote="slimkat-golden" revision="aosp-4.4" groups="pdk" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="android-security" groups="pdk" />
   <project path="external/tremolo" name="android_external_tremolo" remote="slimkat-golden" revision="aosp-4.4" groups="pdk" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" remote="android-security" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="android-security" />
